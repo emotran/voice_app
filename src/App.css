@@ -3,3 +3,7 @@ html, body, .google-map, #root, .App  {
   height: 100%;
   width: 100%;
 }
+
+h2 {
+  color: white;
+}

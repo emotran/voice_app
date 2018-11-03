@@ -8,7 +8,7 @@ const mapPoints =
       lng: -80.23,
       location: "Downtown Miami",
       sourceProvider: "Telemundo",
-      youTubeUrl: "https://www.youtube.com/watch?v=RV0mbZNpGTY"
+      youTubeUrl: "RV0mbZNpGTY"
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ const mapPoints =
       lng: -80.21,
       location: "Downtown Miami",
       sourceProvider: "Telemundo",
-      youTubeUrl: "https://www.youtube.com/watch?v=RV0mbZNpGTY"
+      youTubeUrl: "RV0mbZNpGTY"
     },
     {
       id: 3,
@@ -28,7 +28,7 @@ const mapPoints =
       lng: -80.33,
       location: "Downtown Miami",
       sourceProvider: "Telemundo",
-      youTubeUrl: "https://www.youtube.com/watch?v=RV0mbZNpGTY"
+      youTubeUrl: "RV0mbZNpGTY"
     },
     {
       id: 4,
@@ -38,7 +38,7 @@ const mapPoints =
       lng: -80.333,
       location: "Downtown Miami",
       sourceProvider: "Telemundo",
-      youTubeUrl: "https://www.youtube.com/watch?v=RV0mbZNpGTY"
+      youTubeUrl: "RV0mbZNpGTY"
     },
     {
       id: 5,
@@ -48,7 +48,7 @@ const mapPoints =
       lng: -80.333,
       location: "Downtown Miami",
       sourceProvider: "Telemundo",
-      youTubeUrl: "https://www.youtube.com/watch?v=RV0mbZNpGTY"
+      youTubeUrl: "RV0mbZNpGTY"
     },
     {
       id: 6,
@@ -58,7 +58,7 @@ const mapPoints =
       lng: -80.353,
       location: "Downtown Miami",
       sourceProvider: "Telemundo",
-      youTubeUrl: "https://www.youtube.com/watch?v=RV0mbZNpGTY"
+      youTubeUrl: "RV0mbZNpGTY"
     }  
   ];
 

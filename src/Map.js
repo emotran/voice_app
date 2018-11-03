@@ -11,34 +11,6 @@ export default class Map extends Component {
     points: mapPoints
   }
 
-  _onChildClick = (key, childProps) => {
-    const markerId = childProps.marker.get('id');
-    const index = this.props.markers.findIndex(m => m.get('id') === markerId);
-    if (this.props.onChildClick) {
-      this.props.onChildClick(index);
-    }
-  }
-
-  _onChildMouseEnter = (key, childProps) => {
-    const markerId = childProps.marker.get('id');
-    const index = this.props.markers.findIndex(m => m.get('id') === markerId);
-    if (this.props.onMarkerHover) {
-      this.props.onMarkerHover(index);
-    }
-  }
-
-  _onChildMouseLeave = (/* key, childProps */) => {
-    if (this.props.onMarkerHover) {
-      this.props.onMarkerHover(-1);
-    }
-  }
-
-  _onBalloonCloseClick = () => {
-    if (this.props.onChildClick) {
-      this.props.onChildClick(-1);
-    }
-  }
-
   render() {
     console.log(mapPoints);
       return (
